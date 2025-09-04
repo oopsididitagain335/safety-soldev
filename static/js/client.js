@@ -13,6 +13,6 @@ function initDDoSProtection(apiKey) {
   xhr.send();
   var footer = document.createElement('footer');
   footer.style = 'text-align: center; padding: 10px; background: #f8f8f8;';
-  footer.innerHTML = 'Protected And Supported By <a href="https://yourdomain.com">SolDev Security</a>';
+  footer.innerHTML = 'Protected And Supported By <a href="https://safety-soldev.onrender.com">SolDev Security</a>';
   document.body.appendChild(footer);
 }
