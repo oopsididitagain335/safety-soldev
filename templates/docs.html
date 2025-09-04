@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-3xl font-bold">API Documentation</h1>
+    </header>
+    <main class="container mx-auto p-4">
+        <section>
+            <h2 class="text-2xl">Integration Guide</h2>
+            <p>To integrate:</p>
+            <ol class="list-decimal ml-6">
+                <li>Generate an API key from the dashboard.</li>
+                <li>Add the script tag: <code>&lt;script src="https://yourdomain.com/api/client_script/YOUR_API_KEY"&gt;&lt;/script&gt;</code></li>
+                <li>The script auto-integrates DDoS protection and adds a footer: "Protected And Supported By SolDev Security".</li>
+                <li>Users solve a PoW CAPTCHA when rate limits are hit.</li>
+                <li>Valid tokens allow access to protected endpoints.</li>
+            </ol>
+            <p>Malicious traffic is redirected to an invalid domain and IPs are blacklisted. The system handles heavy loads via threading and queuing.</p>
+        </section>
+    </main>
+</body>
+</html>
